@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    color: #000;
+}
+
+header.title {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #ffebf0;
+}
+
+header.title h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px 10px 10px 10px;
+    color: #000000;
+}
+
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    border-top: 5px solid black;
+    background-color: #ffebf0;
+}
+
+.map-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    border:0; 
+    filter: grayscale(80%) invert(10%);
+}
+
+.map-iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    max-height: 600px;
+    border: none;
+    filter: grayscale(80%) invert(10%);
+    display: block;
+}
+
+.video-container {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}   
+
+.audio-container {
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+.audio-container audio {
+    outline: none;
+    filter: grayscale(100%) brightness(90%);
+    -webkit-filter: grayscale(100%) brightness(90%);
+}
+
+.instagram-widgets {
+    display: flex;
+    justify-content: center;
+    gap: 20px;               
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    align-items: center;
+    zoom: 0.7;
+}
+
+.informal-widgets{
+    display: flex;
+    justify-content: center;
+    gap: 20px;               
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
